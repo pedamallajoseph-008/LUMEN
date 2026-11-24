@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumen — Fashion Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#" class="logo">LUMEN</a>
+      <ul class="nav-links">
+        <li><a href="#women">Women</a></li>
+        <li><a href="#men">Men</a></li>
+        <li><a href="#new">New In</a></li>
+        <li><a href="#offers">Offers</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search">⌕</button>
+        <button class="icon-btn" aria-label="Cart">🛒</button>
+        <a href="#new" class="btn btn-dark">Shop Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div>
+        <span class="hero-label">Autumn Collection 2026</span>
+        <h1>Style that moves with you</h1>
+        <p>Curated essentials and statement pieces designed for everyday confidence. New drops every week.</p>
+        <div class="hero-actions">
+          <a href="#new" class="btn btn-dark">Explore New In</a>
+          <a href="#offers" class="btn" style="border:1.5px solid #111; background:transparent;">View Offers</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-badge">Up to 30% off selected styles</div>
+      </div>
+    </section>
+
+    <section class="categories container">
+      <div class="cat-grid">
+        <div class="cat-card">
+          <div class="cat-icon">👗</div>
+          <h3>Dresses</h3>
+        </div>
+        <div class="cat-card">
+          <div class="cat-icon">🧥</div>
+          <h3>Outerwear</h3>
+        </div>
+        <div class="cat-card">
+          <div class="cat-icon">👖</div>
+          <h3>Denim</h3>
+        </div>
+        <div class="cat-card">
+          <div class="cat-icon">👟</div>
+          <h3>Footwear</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="new">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2>Featured Pieces</h2>
+            <p>Handpicked styles from the latest drop</p>
+          </div>
+          <a href="#" class="btn btn-dark">View All</a>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-img">
+              <span class="product-tag">New</span>
+              🧥
+            </div>
+            <div class="product-body">
+              <h3>Wool Blend Overcoat</h3>
+              <div class="meta">Women · Outerwear</div>
+              <div class="price-row">
+                <div class="price">$189</div>
+                <button class="add-btn" aria-label="Add to cart">+</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-img">
+              <span class="product-tag">-20%</span>
+              👖
+            </div>
+            <div class="product-body">
+              <h3>Relaxed Straight Jeans</h3>
+              <div class="meta">Unisex · Denim</div>
+              <div class="price-row">
+                <div class="price">$78 <span class="old">$98</span></div>
+                <button class="add-btn" aria-label="Add to cart">+</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-img">
+              <span class="product-tag">New</span>
+              👕
+            </div>
+            <div class="product-body">
+              <h3>Organic Cotton Tee</h3>
+              <div class="meta">Men · Basics</div>
+              <div class="price-row">
+                <div class="price">$42</div>
+                <button class="add-btn" aria-label="Add to cart">+</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-img">
+              👟
+            </div>
+            <div class="product-body">
+              <h3>Minimal Leather Sneaker</h3>
+              <div class="meta">Unisex · Footwear</div>
+              <div class="price-row">
+                <div class="price">$128</div>
+                <button class="add-btn" aria-label="Add to cart">+</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="featured">
+          <div>
+            <h2>Limited Edition Drop</h2>
+            <p>Exclusive collaboration pieces available for a short time only. Clean lines, premium fabrics.</p>
+            <a href="#" class="btn btn-accent">Shop the Drop</a>
+          </div>
+          <div class="featured-visual">✨</div>
+        </div>
+
+        <div class="offers" id="offers">
+          <div class="offer-card">
+            <strong>Free Shipping</strong>
+            <span>On orders over $80</span>
+          </div>
+          <div class="offer-card">
+            <strong>Easy Returns</strong>
+            <span>30-day return window</span>
+          </div>
+          <div class="offer-card">
+            <strong>Member Rewards</strong>
+            <span>Earn points on every order</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">LUMEN</div>
+          <p>Modern fashion for everyday life. Designed with care, made to last.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <a href="#">Women</a>
+          <a href="#">Men</a>
+          <a href="#">New In</a>
+          <a href="#">Sale</a>
+        </div>
+        <div class="footer-col">
+          <h4>Help</h4>
+          <a href="#">Shipping</a>
+          <a href="#">Returns</a>
+          <a href="#">Size Guide</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Sustainability</a>
+          <a href="#">Careers</a>
+        </div>
+      </div>
+      <div class="copyright">© 2026 Lumen Fashion. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>
